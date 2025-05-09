@@ -1,9 +1,10 @@
-streamlit>=1.24.0
 torch>=2.0.0
-transformers>=4.30.0
+transformers==4.47.0
 accelerate>=0.20.0
 bitsandbytes>=0.39.0
-pillow>=10.0.0
+gradio>=3.50.0
 numpy>=1.24.0
 matplotlib>=3.7.0
 scipy>=1.10.0
+Pillow>=10.0.0
+llama-cpp-python>=0.2.0; platform_system != "Windows" or python_version < "3.11"
